@@ -1,0 +1,239 @@
+body
+{
+	background-image: url('../images/bleu-pastel-clair.jpg');
+}
+
+.table
+{
+	margin-bottom:  0;
+}
+
+#specia_logo
+{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: 0;
+}
+
+/* Admin menu */
+.admin-menu
+{
+	background-color: #f5f5f5;
+	margin-top: 0;
+	width: 13%;
+	height: 100%;
+	display: inline-block;
+}
+
+.admin-menu #adminMenuLogo
+{
+	display: block;
+	width: 100px;
+	margin: auto;
+	padding-top: 10px;
+}
+
+.admin-menu #adminUsername
+{
+	display: block;
+	font-weight: bold;
+	margin:  auto;
+	text-align: center;
+	margin-top: 15px;
+	font-size: 15px;
+}
+
+.admin-menu .disconnect
+{
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.admin-menu #adminPic
+{
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+	border-radius: 50px;
+	width: 100px;
+}
+
+nav
+{
+	width: 100%;
+}
+nav ul
+{
+	list-style-type: none;
+	padding: 0;
+
+}
+
+nav ul a
+{
+	height: 50px;
+	transition:0.2s;
+}
+
+nav ul a li
+{
+	background-color: #dbdbdb;
+	height: 30px;
+	padding-left: 30px;
+	color: #424242;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-bottom: 1px solid black;
+	transition: 0.2s;
+}
+
+nav ul a:last-child li
+{
+	border-bottom: none;
+}
+
+nav ul a:hover
+{
+	text-decoration: none;
+}
+
+nav ul a li:hover
+{
+	text-decoration: none;
+	font-weight: bold;
+	background-color: #cccccc;
+}
+
+/* ----------------------------- */
+
+.content
+{
+	display: inline-block;
+	margin-left: 50px;
+	vertical-align: top;
+	width: 80%;
+	border:  1px solid pink;
+	background-color: white;
+	margin-top:  30px;
+}
+
+.blockContent
+{
+	width: 500px;
+	border: 1px solid black;
+	display: inline-block;
+	padding: 10px;
+	border:  1px solid white;
+	vertical-align: top;
+}
+
+.blockContent table
+{
+	background-color:  white;
+}
+
+.admtitle
+{
+	text-align: center;
+	margin-top:  5px;
+	margin-bottom: 5px;
+}
+
+/*-----------------TABLE--------------------*/
+
+table,td,th
+{
+	border:  1px solid black;
+	margin: 10px;
+}
+
+thead
+{
+	background-color: #4f4f4f;
+	color: white;
+}
+
+td,th
+{
+	padding: 5px;
+	text-align: center;
+}
+
+table tbody tr:nth-child(odd)
+{
+	background-color: #f2f2f2;
+}
+
+table tbody tr:nth-child(even)
+{
+	background-color: #fafafa;
+}
+
+table tbody tr.disabledUser
+{
+	background-color: #ff7070;
+	color: #780d0d;
+}
+table tbody tr.tableStats
+{
+	background-color: #bee7ed;
+	height: 30px;
+}
+
+.progressStats div
+{
+	background-color: #68a0a8;
+	padding: 0;
+	margin: 0;
+	color:  white;
+	font-size: 12px;
+	height:  31px;
+	padding-top: 5px;
+	opacity: 0.7;
+	font-weight: bold;
+}
+
+.progressStats
+{
+	padding: 0;
+	margin: 0;
+	height: 31px;
+}
+/*-----------------------------------------*/
+/*-------------FORM------------------------*/
+.content form
+{
+	width: 500px;
+	background-color: #ebebeb;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+
+.content form label,input
+{
+	display: inline-block;
+}
+
+.formLine
+{
+	width: 100%;
+	display: inline-block;
+	margin: auto;
+	line-height: 40px;
+	vertical-align: middle;
+	margin-top: 10px;
+}
+
+.formLine input
+{
+	float: right;
+}
+
+.formLine input[type="submit"]
+{
+	float: none;
+}
+/*-----------------------------------------*/
